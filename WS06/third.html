@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Third Page</title>
+<link rel="stylesheet" href="styles/styles.css">
+
+<style>
+    /* Lisätty uusi tyyli pystysuuntaiselle navigaatiolle */
+    #vertical-nav {
+        float: left;
+        width: 200px;
+        background-color: #333;
+        padding: 20px;
+        height: 100vh; /* This ensures the navigation takes the full height of the viewport */
+    }
+
+    #vertical-nav a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    #vertical-nav a:hover {
+        background-color: #555; 
+    }
+
+    /* Säilytetty alkuperäinen tyyli sisältöelementeille */
+    .content {
+        margin-left: 240px; /* Huomaa, että tämä marginaali on päivitetty vastaamaan navigaation leveyttä */
+        padding: 20px;
+    }
+
+    .content h1 {
+        color: #333;
+    }
+
+    .content p {
+        color: #666;
+    }
+
+    nav {
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Lisää mielenkiintoisia matkakohteita</h1>
+</header>
+
+<div id="vertical-nav">
+    <a href="https://fi.wikipedia.org/wiki/Bangkok" target="_blank">Bangkok</a>
+    <a href="https://fi.wikipedia.org/wiki/New_York" target="_blank">New York</a>
+    <a href="https://fi.wikipedia.org/wiki/K%C5%8Dbe" target="_blank">Kobe</a>
+</div>
+
+<nav>
+    <a href="index.html">Etusivu</a>
+    <a href="sivu2.html">Sivu 2</a>
+    <a href="second.html">Sivu 3</a>
+    <a href="third.html">Sivu 4</a>
+</nav>
+
+<div class="content">
+    <h1>Bangkok</h1>
+    <p>Löydät lisätietoa kohteesta klikkaamalla sivupalkista.</p>
+</div>
+
+<div class="content">
+    <h1>New York</h1>
+    <p>Löydät lisätietoa kohteesta klikkaamalla sivupalkista.</p>
+</div>
+
+<div class="content">
+    <h1>Kobe</h1>
+    <p>Löydät lisätietoa kohteesta klikkaamalla sivupalkista.</p>
+</div>
+
+</body>
+</html>
