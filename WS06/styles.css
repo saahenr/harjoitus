@@ -1,0 +1,25 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f3f6f6;
+    padding: 10px;
+    text-align: center;
+}
+
+.link {
+    color: blue;
+}
+body {
+    background-color: #dc704d;
+}
+h1 {
+    border: 2px solid #333;
+    padding: 10px;
+}
+p {
+    background-color: #c6ac62;
+    border-radius: 10px;
+    padding: 10px;
+}
