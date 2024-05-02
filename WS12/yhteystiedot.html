@@ -3,25 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yhteystiedot - Kuvitteellinen Ravintola</title>
+    <title>Helsinki Sport & Döner - Yhteystiedot</title>
     <link rel="stylesheet" href="styles/yhteystiedot_styles.css">
 </head>
 <body class="colorful-page">
     <header class="colorful-header">
-        <h1>Yhteystiedot</h1>
+        <h1>Ota yhteyttä</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Etusivu</a></li>
                 <li><a href="menu.html">Menu</a></li>
-                <li><a href="meista.html">Tietoa Meistä</a></li>
-                <li><a href="yhteystiedot.html" class="active">Yhteystiedot</a></li>
+                <li><a href="meista.html">Meistä</a></li>
+                <li><a href="yhteystiedot.html" class="active">Ota yhteyttä</a></li>
             </ul>
         </nav>
     </header>
     
     <main class="colorful-main">
         <section class="contact">
-            <!-- Tähän voit lisätä yhteystiedot ja karttalinkin -->
+            <h2>Yhteystiedot</h2>
+            <p><strong>Osoite:</strong> Hämeentie 40, 00500 Helsinki</p>
+            <p><strong>Sähköposti:</strong> info@sportanddoner.fi</p>
+            
+            <p>Oletko kiinnostunut kuulemaan lisää ravintolastamme tai haluatko antaa palautetta? Ota meihin yhteyttä sähköpostitse tai alla olevalla lomakkeella:</p>
+           
+            <h2>Lähetä viesti</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Nimi:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Sähköposti:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Viesti:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Lähetä">
+            </form>
+        </section>
+        <section class="contact-map">
+            <https://maps.app.goo.gl/1sn3S7259Msb7Lu38>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19872.977499214127!2d24.940467924962045!3d60.1806884092553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920d8625b5cfd7%3A0xa306abce6b134d3f!2sH%C3%A4meentie%2040%2C%2000500%20Helsinki!5e0!3m2!1sfi!2sfi!4v1621913194775!5m2!1sfi!2sfi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
     </main>
 

@@ -7,7 +7,7 @@ body.rustic-page {
 
 .rustic-header {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #e8c489(255, 255, 255, 0.7);
     padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -44,7 +44,7 @@ body.rustic-page {
 
 .rustic-main {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Lisätään läpinäkyvä tausta sisältöalueelle */
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 

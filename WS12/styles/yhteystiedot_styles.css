@@ -1,10 +1,10 @@
-body.colorful-page {
+.body.colorful-page {
     background-color: #f5f5f5;
     font-family: "Arial", sans-serif;
 }
 .colorful-header {
     text-align: center;
-    background-color: #ffffff;
+    background-color: #e8c489;
     padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -39,6 +39,67 @@ body.colorful-page {
     background-color: #ffffff;
     padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: url('../kuvat/palaute.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact h2 {
+    font-size: 24px;
+    color: #333333;
+}
+.contact p {
+    font-size: 18px;
+    color: #000000;
+}
+.contact-form {
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #555555;
+}
+
+.colorful-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    color: #ffffff;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .contact h2 {
     font-size: 24px;
@@ -48,6 +109,7 @@ body.colorful-page {
 .contact p {
     font-size: 18px;
     color: #666666;
+    text-align: center;
 }
 .colorful-footer {
     text-align: center;
@@ -55,4 +117,12 @@ body.colorful-page {
     background-color: #333333;
     color: #ffffff;
     box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-map {
+    text-align: center;
+}
+
+.contact-map iframe {
+    display: inline-block;
+    margin: 0 auto;
 }
