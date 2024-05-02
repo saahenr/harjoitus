@@ -1,0 +1,83 @@
+body.rustic-page {
+    background-image: url('../kuvat/doner.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: "Arial", sans-serif;
+}
+
+.rustic-header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rustic-header h1 {
+    font-size: 32px;
+    color: #333333;
+}
+
+.rustic-header nav {
+    text-align: center;
+}
+
+.rustic-header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.rustic-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.rustic-header nav ul li a {
+    color: #666666;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.rustic-header nav ul li a.active {
+    color: #ff9900;
+}
+
+.rustic-main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Lisätään läpinäkyvä tausta sisältöalueelle */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu h2 {
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.menu p {
+    font-size: 18px;
+    color: #666666;
+}
+
+.rustic-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    color: #ffffff;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-item h2 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.menu-item p {
+    font-size: 18px;
+    color: #666666;
+}

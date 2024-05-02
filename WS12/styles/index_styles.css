@@ -1,0 +1,90 @@
+body.elegant-page {
+    background-color: #f5f5f5;
+    font-family: "Arial", sans-serif;
+}
+
+.elegant-header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.elegant-header h1 {
+    font-size: 32px;
+    color: #333333;
+}
+
+.elegant-header nav {
+    text-align: center;
+}
+
+.elegant-header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.elegant-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.elegant-header nav ul li a {
+    color: #666666;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.elegant-header nav ul li a.active {
+    color: #ff9900;
+}
+
+.elegant-main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    max-width: 70%;
+}
+
+.hero-text {
+    margin-top: 20px;
+}
+
+.hero-text h2 {
+    font-size: 28px;
+    color: #333333;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #666666;
+}
+
+.about {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.about p {
+    font-size: 18px;
+    color: #666666;
+}
+
+.elegant-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    color: #ffffff;
+}
